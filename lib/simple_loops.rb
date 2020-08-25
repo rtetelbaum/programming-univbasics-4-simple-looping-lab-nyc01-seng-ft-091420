@@ -32,6 +32,7 @@ array2 = [5, 4, 3, 2, 1]
 
 def return_string_array(array2)
   count = 0
+  new_array = Array.new
   while count < array2.length do
     new_array.push(array2[count].to_s)
     count += 1
