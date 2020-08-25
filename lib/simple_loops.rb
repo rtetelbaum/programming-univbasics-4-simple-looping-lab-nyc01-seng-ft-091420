@@ -26,3 +26,21 @@ def output_array(array)
     count += 1
   end
 end
+
+
+array2 = [5, 4, 3, 2, 1]
+
+def return_string_array(array2)
+  count = 0
+  while count < array2.length do
+    new_array.push(array2[count].to_s)
+    count += 1
+  end
+  new_array
+end
+
+
+
+
+
+
